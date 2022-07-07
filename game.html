@@ -18,23 +18,18 @@
                 <h2 style="color: white;">Quiz de matemática!</h2>
                 <h2 id="qTurn"></h2>
                 <h2 id="aTurn"></h2>
-                <div id="output">
-                    <h1 id="number"></h1>
-                    <h4>Resposta: </h4><input type="number" id="answer" placeholder="resposta">
-                    <br>
-                    <button id="checkButton" onclick="check()"></button>
-                </div>
+                <div id="output"></div>
                 <br>
                 <br>
                 <div id="qGuess">
                 <label>Número 1</label>
-                <input type="number" id="numero1" placeholder="Número 1">
+                <input type="text" id="numero1" placeholder="Número 1">
                 <br>
                 <label>Número 2</label>
-                <input type="number" id="numero2" placeholder="Número 2">
+                <input type="text" id="numero2" placeholder="Número 2">
                 <br>
                 <br>
-                <button id="sendButton" onclick="send()"></button>
+                <button id="sendButton" class="btn btn-primary" onclick="send()"></button>
                 </div>
             </center>
         </div>
